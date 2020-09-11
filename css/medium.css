@@ -1,0 +1,39 @@
+@media only screen and (min-width: 560px) {
+    nav li {width: 25%; float: left;}
+    
+    
+    main figure {
+        float: right; 
+        width: 48%; 
+        margin-left: 2%;
+        padding-bottom: .5rem;
+    }
+    
+    div.news {
+        clear: both;
+        column-count: 2;
+        column-rule: 1px solid #ddd;
+    }
+    h2.visible {
+        visibility: visible;
+    }
+    header img {width: 50%;}
+header {
+    margin: 0;
+    width: 100%;
+    right: auto;
+    left: 5;
+}
+figure img {width: 50%;}
+figure {
+    margin: 0;
+    width: 50%;
+}
+
+main figure img {width: 100%;}
+main figure{
+    margin: 0;
+    width: 100%;
+    
+}
+} /* end of media query */

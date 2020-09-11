@@ -1,0 +1,37 @@
+@media only screen and (min-width: 1028px) {
+    header, nav, main, footer {
+        max-width: 1200px;
+        margin:auto;
+    }
+    
+    
+    
+    nav ul {padding-left: 2%;}
+    nav li {width:auto;}
+    nav a {padding: .5rem 1rem;}
+    
+    main figure { width: 31%;}
+    
+    div.news {column-count: 3;}
+    
+    h2.visible {
+    visibility: visible;
+}
+header img {width: 33%;}
+header {
+    margin: 100;
+    width: 100%;
+}
+figure img {width: 33%;}
+figure {
+    margin: 0;
+    width: 100%;
+}
+
+main figure img {width: 100%;}
+main figure{
+    margin: 0;
+    width: 100%;
+    
+}
+} /* end of media query */
